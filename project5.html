@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MAE3 | Portfolio</title>
+  <title>SLAC Internship | Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,53 +20,38 @@
     
     <!-- Title & Overview Header -->
     <div class="project-header">
-      <h1>MAE3</h1>
-      <p class="subtitle"> March – June 2025 </p>
+      <h1>SLAC Internship</h1>
+      <p class="subtitle"> Jul – Sep 2025, Jun - Aug 2026 </p>
       
       <div class="tags">
-        <span class="tag">CAD</span>
-        <span class="tag">Design for Manufacturing</span>
-        <span class="tag">Robot Competition</span>
+        <span class="tag">Electronics Testing</span>
+        <span class="tag">Structural Analysis</span>
+        <span class="tag">Software Data Analysis</span>
       </div>
     </div>
 
-    <!-- Main Image / Banner -->
-    <div class="project-hero-image">
-      <img src="images/MAE3.jpg" alt="Icarus robot">
-    </div>
-
+    
     <!-- Detailed Content Layout -->
     <div class="project-content">
       
       <!-- Section 1: Context & Problem -->
       <h2>Project Overview & Problem Statement</h2>
-      <p>In this class we had ~7 weeks to build a functional robot that could pick up rings around the field and score them on top of a statue of Sun God. The main challenge was the veritcal height, as the robot was confined to a 12x12x12 inch space.  </p>
-
-      <!-- Image Grid / Visuals -->
-      <div class="image-grid">
-        <figure>
-          <img src="images/wrist-geometry.jpg" alt="Resin printed wrist geometries">
-          <figcaption>Linear slider animation in Fusion 360</figcaption>
-        </figure>
-        <figure>
-          <img src="images/test-setup.jpg" alt="Actuator and load cell force testing setup">
-          <figcaption>Final Robot Assembly</figcaption>
-        </figure>
-      </div>
+      <p>During my internship at SLAC, I was involved in the testing, diagnosis, analysis and repair of over 50 Beam Positioning monitors boards. These boards are critical for determining the position of the beam inside the accelerator, allowing for better images. I was also involved in 3D printing and modeling PCB covers and strain relief hardware and printing out of PEEK, a radioactively hard material. I also designed a workbench for a 200lb laser stripper made out of over the counter 80-20 parts and performed FEA to ensure structural integrity. Built and commisioned the table on sight. Additionally, tested signal integrity of high data transmission cables that are over 6m long used for the ATLAS project at CERN and verified impedances and S-parameters.</p>
 
       <!-- Section 2: Key Engineering Contributions -->
       <h2>Key Engineering Contributions</h2>
       <ul>
-        <li><strong>Design:</strong> Took on the most challengin mechanism and designed a 4 staged cascading linear slider mechanism to allow us to score on the highest rung of Sun God.</li>
-        <li><strong>Analysis:</strong> Performed torque energy and power analysis to ensure that the motors could raise the linear slider mechanism to the required height. Discovered that while the motors were sufficient to move the sliders, the movement would be very slow, so rather than having two sliders on each side of the robot, having one and using two motors to drive it. This made it so the time it took to extend our slides fully was less than 5 seconds, making it one of the fastest mechanisms in the class.</li>
-        <li><strong>Design for fabrication:</strong> Iteratively protoyped until a functional design was achieved. Many early designs failed due to the lack of consideration of manufacturing and assembly, and inability to produce low tolerance parts as everything was lasercut and fabricated in house</li>
-        <li><strong>Competition:</strong> My team was the only team to successfully implement a linear slider mechanism that could reach the top rung of Sun God. We placed in the Top 12 of teams. </li>
-      </ul>
+        <li><strong>Electronics:</strong> Used Time Domain Reflectometer and Newtork Analyzer and Active probe to diagnose and repair over 50 BPM boards. </li>
+        <li><strong>FEA:</strong> Conducted finite element analysis in Fusion 360 to ensure that the table could supprt the intended load of the laserstripper </li>
+        <li><strong>3D printing:</strong> Used INTAMSUITE PEEK printer and software to print PCB covers and strain relief hardware. 3D printing the strain relief hardware helped reduce the cost, as these were originally CNCed from steel and were expensive to manufacture. </li>
+        <li><strong>Software:</strong> Created a program in python to collect and analyze real time beam data and calculate resolutions of BPMs, allowing for in-situ diagnosis of BPM issues. Built program from scratch and evaluated 4 methods of resolution calculations and proposed one of them as the most effective diagnostic tool. Published in paper for International Beam Instrumentation Conference, where I will be attending and presenting my work in a poster session in September 2026. </li>
+
+    </ul>
 
       <!-- Section 3: Outcomes / Next Steps -->
       <h2>Results & Impact</h2>
       <p>
-        By routing external steering tendons and integrating radio-opaque ink markers, steering performance and real-time fluoroscopic visibility during surgical procedures were significantly improved. Additionally, I constructed a parametric spreadsheet model to optimize dimensions for antagonistic steering in subsequent iterations.
+        Fixed over 50 BPM boards and improved their performance, contributing to the overall reliability of the accelerator systems. The 3D printed components reduced manufacturing costs and lead times. The FEA analysis ensured the structural integrity of the workbench, allowing for safe operation under the intended load conditions, and which is now being used by technicians! Published my first paper and attended my first conference!
       </p>
 
     </div>
